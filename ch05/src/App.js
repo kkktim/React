@@ -3,6 +3,9 @@ import "./App.css";
 import MyComponent1 from "./components/MyComponent1";
 import MyComponent2 from "./components/MyComponent2";
 import MyComponent3 from "./components/MyComponent3";
+import { useState } from "react";
+import Mcom1 from "./components/Mcom1";
+import Mcom2 from "./components/Mcom2";
 /**
  *
  * @returns
@@ -31,6 +34,8 @@ function App() {
       <h3>ch05.React Hooks 실습</h3>
       <h4>1) useState</h4>
       <MyComponent1 />
+      <Mcom1 />
+      <Mcom2 />
       <h4>1) useEffect</h4>
       <MyComponent2 />
       <h4>1) useRef</h4>
